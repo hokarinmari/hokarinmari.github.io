@@ -21,7 +21,6 @@ jobs:
     - run: npm install --global yarn
     - run: yarn   # install dependencies
     - run: yarn build
-    - run: yarn test
 
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@4.1.0
