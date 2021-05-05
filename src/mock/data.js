@@ -2,15 +2,15 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Xtronic | Human', // e.g: 'Name | Developer'
+  title: 'hokarinmari | Human', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description: "Xtronic's landing page", // e.g: Welcome to my website
+  description: "hokarinmari's landing page", // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: "Hello I'm not",
-  name: 'XTRONIC',
+  name: 'hokarinmari',
   subtitle: "I'am not a Unity Developer",
   cta: "OK, I don't care!",
 };
@@ -18,7 +18,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: "My name is Xtronic and I'm Unity developer.",
+  paragraphOne: "My name is hokarinmari and I'm Unity developer.",
   paragraphTwo: "I'm 18 yrs old and live in Burma.",
   paragraphThree: 'Currently learning 3D modelling and I like to play CSGO.',
   resume: '', // if no resume, the button will not show up
@@ -83,7 +83,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'github',
-      url: 'https://github.com/xtronic96',
+      url: 'https://github.com/hokarinmari',
     },
   ],
 };

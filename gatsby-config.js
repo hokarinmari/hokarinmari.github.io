@@ -22,8 +22,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Xtronic's Landing Page`,
-        short_name: `Xtronic`,
+        name: `hokarinmari's Landing Page`,
+        short_name: `hokarinmari`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#02aab0`,

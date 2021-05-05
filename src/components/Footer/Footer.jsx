@@ -26,7 +26,7 @@ const Footer = () => {
               return (
                 <a
                   key={id}
-                  href={url || 'https://github.com/xtronic96'}
+                  href={url || 'https://github.com/hokarinmari'}
                   rel="noopener noreferrer"
                   target="_blank"
                   aria-label={name}
@@ -39,8 +39,8 @@ const Footer = () => {
         <hr />
         <p className="footer__text">
           Copyright © {new Date().getFullYear()} -{' '}
-          <a href="https://github.com/xtronic96" target="_blank" rel="noopener noreferrer">
-            Xtronic
+          <a href="https://github.com/hokarinmari" target="_blank" rel="noopener noreferrer">
+            hokarinmari
           </a>
         </p>
 

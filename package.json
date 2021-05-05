@@ -1,11 +1,11 @@
 {
-  "name": "xtronic96.github.io",
+  "name": "hokarinmari.github.io",
   "version": "0.1.0",
-  "description": "Xtronic's Landing Page, made with ❤ by pewriebontal",
+  "description": "hokarinmari's Landing Page, made with ❤ by pewriebontal",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xtronic96/xtronic96.github.io.git"
+    "url": "git+https://github.com/hokarinmari/hokarinmari.github.io.git"
   },
   "keywords": [
     "Landing",
@@ -16,7 +16,7 @@
   "author": "pewriebontal <pewriebontal@outlook.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xtronic96/xtronic96.github.io/issues"
+    "url": "https://github.com/hokarinmari/hokarinmari.github.io/issues"
   },
   "scripts": {
     "build": "gatsby build",
