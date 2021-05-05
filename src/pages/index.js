@@ -12,7 +12,7 @@ export default () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>{title || 'hokarinmari'}</title>
+        <title>{title || 'Hokarinmari'}</title>
         <html lang={lang || 'en'} />
         <meta name="description" content={description || 'Human'} />
       </Helmet>
