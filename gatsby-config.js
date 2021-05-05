@@ -22,8 +22,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `hokarinmari's Landing Page`,
-        short_name: `hokarinmari`,
+        name: `Hokarinmari's Landing Page`,
+        short_name: `Hokarinmari`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#02aab0`,
