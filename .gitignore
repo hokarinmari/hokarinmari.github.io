@@ -4,7 +4,6 @@
 .yarn-integrity
 
 # dependencies
-
 node_modules/
 jspm_packages/
 .pnp/
@@ -41,7 +40,6 @@ pids
 
 # nyc test coverage
 .nyc_output
-
 
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
