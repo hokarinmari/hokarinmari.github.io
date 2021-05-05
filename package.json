@@ -1,9 +1,23 @@
 {
-  "name": "gatsby-starter-hello-world",
-  "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "name": "xtronic96.github.io",
   "version": "0.1.0",
+  "description": "Xtronic's Landing Page, made with ❤ by pewriebontal",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xtronic96/xtronic96.github.io.git"
+  },
+  "keywords": [
+    "Landing",
+    "Page",
+    "React",
+    "Material"
+  ],
+  "author": "pewriebontal <pewriebontal@outlook.com>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xtronic96/xtronic96.github.io/issues"
+  },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -50,12 +64,11 @@
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "husky": {
     "hooks": {
@@ -70,6 +83,18 @@
     "*.+(json|css|md)": [
       "prettier --write",
       "git add"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
     ]
   }
 }
