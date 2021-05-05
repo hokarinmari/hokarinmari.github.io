@@ -21,7 +21,7 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn cta-btn--resume"
-              href={email ? `mailto:${email}` : 'mailto:example@example.com'}
+              href={email ? `mailto:${email}` : 'mailto:username@example.com'}
             >
               {btn || "Let's Talk"}
             </a>

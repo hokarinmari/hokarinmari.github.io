@@ -15,7 +15,7 @@ export default () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Page not found</title>
+        <title>404.1 | Error</title>
         <html lang={lang || 'en'} />
         <meta name="description" content="Page not found" />
       </Helmet>
@@ -23,7 +23,7 @@ export default () => {
         <Container>
           <Fade bottom duration={1000} delay={500} distance="30px">
             <h1 className="hero-title text-center">
-              404.1 Site Not Found{' '}
+              404.1 Page Not Found{' '}
               <span role="img" aria-label="emoji">
                 🥺
               </span>
