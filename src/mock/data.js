@@ -2,23 +2,23 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Hokarinmari | Human', // e.g: 'Name | Developer'
+  title: 'HOME | hokarinmari', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: "Hokarinmari's landing page", // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: "Hi, my name is not",
+  title: 'Hi, my name is not',
   name: 'Hokarinmari',
-  subtitle: "I'm not a Unity Developer",
+  subtitle: "I'm not a Unity Developer.",
   cta: "OK, I don't care!",
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: "My name is Hokarinmari and I'm Unity developer.",
+  paragraphOne: "My name is Hokarinmari and I'm Unity3d developer.",
   paragraphTwo: "I'm 18 yrs old and live in Burma.",
   paragraphThree: 'Currently learning 3D modelling and I like to play CSGO.',
   resume: '', // if no resume, the button will not show up
@@ -57,9 +57,9 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: 'example@example.com',
+  cta: 'Would you like to work with me? Awesome!',
+  btn: "Let's Talk",
+  email: 'username@domain.com',
 };
 
 // FOOTER DATA
@@ -71,15 +71,15 @@ export const footerData = {
       url: 'https://facebook.com/kyaw.z.soe.96592',
     },
     /*    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    }, 
-    {
-      id: nanoid(),
-      name: 'linkedin',
-      url: '',
-    }, */
+        id: nanoid(),
+        name: 'codepen',
+        url: '',
+      }, 
+      {
+        id: nanoid(),
+        name: 'linkedin',
+        url: '',
+      }, */
     {
       id: nanoid(),
       name: 'github',
